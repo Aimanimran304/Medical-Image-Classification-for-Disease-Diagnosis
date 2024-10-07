@@ -37,6 +37,7 @@ if uploaded_file is not None:
     prediction = model.predict(img_array)
     score = prediction[0][0]
 
+
     # Display the prediction
     if score < 0.5:
         st.write("### Prediction: **Normal**")
