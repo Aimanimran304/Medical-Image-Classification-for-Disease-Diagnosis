@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 
 # Load the trained model
-model = tf.keras.models.load_model('pneumonia_classification_model.h5')
+model = tf.keras.models.load_model('model.h5')
 
 # Define the class names
 class_names = ['Normal', 'Pneumonia']
